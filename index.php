@@ -17,7 +17,7 @@ $p->setStartingRow($p->getPageRowNumber());
 
 $rowCarField = $v->getCarsLimitByRecPerPage($p->getStartingRow(), $p->getRecordsPerPage());
 $carObjSearchResult = $s->getSearchInputResult('search-car');
-//print_r($carObjSearchResult);
+print_r($carObjSearchResult);
 ?>
 <html lang="en">
 <head>
